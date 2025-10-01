@@ -20,3 +20,16 @@ class User3 {
     this.age = a;
   }
 }
+
+// javascript
+class User4 {
+  constructor(n: string, a: string) {
+    this.name = n;
+    this.age = a;
+  }
+}
+
+// typescript
+class User5 {
+  constructor(public name: string, public age = 39) {}
+}
