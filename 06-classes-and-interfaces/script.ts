@@ -33,3 +33,18 @@ class User4 {
 class User5 {
   constructor(public name: string, public age = 39) {}
 }
+
+// typescript
+class User6 {
+  public hobbies: string[] = [];
+
+  constructor(private name: string, public age = 39) {}
+
+  greet() {
+    console.log(this.name);
+  }
+}
+
+const max = new User6("Max");
+max.age = 37;
+// max.name = 'Alex' doesnt work
