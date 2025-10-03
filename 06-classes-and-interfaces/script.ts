@@ -36,9 +36,9 @@ class User5 {
 
 // typescript
 class User6 {
-  public hobbies: string[] = [];
+  readonly hobbies: string[] = [];
 
-  constructor(private name: string, public age = 39) {}
+  constructor(private name: string, public readonly age = 39) {}
 
   greet() {
     console.log(this.name);
@@ -46,5 +46,5 @@ class User6 {
 }
 
 const max = new User6("Max");
-max.age = 37;
-// max.name = 'Alex' doesnt work
+max.age = 37; // doesn't work
+// max.name = 'Alex' doesn't work
