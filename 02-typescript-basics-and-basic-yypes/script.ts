@@ -1,6 +1,7 @@
-let data: Record<string, number | string>;
+enum Role {
+  Admin,
+  Guest,
+  Editor = "Editor",
+}
 
-data = {
-  entry1: 1,
-  entry2: "some string",
-};
+let userRole = Role.Admin;
