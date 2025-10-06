@@ -1,10 +1,3 @@
-type Role = "admin" | "editor" | "guest";
-
-type User = {
-  name: string;
-  age: number;
-  role: Role;
-  pemission: string[];
-};
-
-let userRole: Role = "guest";
+function add(a: number, b: number): number {
+  return a + b;
+}
