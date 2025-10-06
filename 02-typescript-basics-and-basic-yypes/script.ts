@@ -1,5 +1,10 @@
-let userRole: "admin" | "editor" | "guest" = "admin";
+type Role = "admin" | "editor" | "guest";
 
-userRole = "guest";
+type User = {
+  name: string;
+  age: number;
+  role: Role;
+  pemission: string[];
+};
 
-let possibleresults: [1 | -1, 1 | -1] = [-1, 1];
+let userRole: Role = "guest";
