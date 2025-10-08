@@ -1,8 +1,27 @@
-let a: null | string;
-let b: undefined | string;
+// const inputEl = document.getElementById("user-name")!;
 
-a = null;
-a = "Hi";
+// if (!inputEl) {
+//   throw new Error("Element not found");
+// }
 
-b = undefined;
-b = "Hi";
+// console.log(inputEl.value);
+
+////////////////////
+
+// const inputEl = document.getElementById("user-name");
+
+// if (!inputEl) {
+//   throw new Error("Element not found");
+// }
+
+// console.log(inputEl!.value);
+
+////////////////////
+
+const inputEl = document.getElementById("user-name");
+
+// if (!inputEl) {
+//   throw new Error("Element not found");
+// }
+
+console.log(inputEl?.value);
