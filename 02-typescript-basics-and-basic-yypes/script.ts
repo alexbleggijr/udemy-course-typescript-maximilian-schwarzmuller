@@ -1,11 +1,7 @@
-function generateError(msg: string) {
-  throw new Error(msg);
-}
+let input = "";
+const didProvideImput = input || false;
+console.log(didProvideImput);
 
-generateError("");
-
-type User = {
-  name: string;
-  age: number;
-  role?: "admin" | "guest";
-};
+let input2 = "";
+const didProvideImput2 = input ?? false;
+console.log(didProvideImput2);
