@@ -1,9 +1,3 @@
-// data:
-// initial amount
-// annual contribution
-// expected return
-// duration
-
 type InvestmentData = {
     initialAmount: number;
     annualContribution: number;
@@ -11,7 +5,18 @@ type InvestmentData = {
     duration: number;
 };
 
-function calculateInvestment(data: InvestmentData) {};
+type InvestmentResult = {
+    year: string;
+    totalAmount: number;
+    totalContributions: number;
+    totalInterestEarned: number;
+};
+
+type calculationResult = InvestmentResult[] | string;
+
+function calculateInvestment(data: InvestmentData): calculationResult {
+
+};
 
 function printResults(results) {};
 
