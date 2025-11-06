@@ -1,6 +1,1 @@
-let user: {
-  name: string;
-  age: number;
-  hobbies: string[];
-  role: { description: string; id: number };
-};
+let val: {} = "it is a value";
