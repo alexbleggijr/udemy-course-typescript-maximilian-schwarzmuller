@@ -1,1 +1,2 @@
-let users: Array<string | number> = [];
+let possibleResults: [number, number];
+possibleResults = [1, -1];
