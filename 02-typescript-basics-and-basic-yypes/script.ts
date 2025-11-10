@@ -1,2 +1,6 @@
-let possibleResults: [number, number];
-possibleResults = [1, -1];
+let user: {
+  name: string;
+  age: number;
+  hobbies: string[];
+  role: { description: string; id: number };
+};
