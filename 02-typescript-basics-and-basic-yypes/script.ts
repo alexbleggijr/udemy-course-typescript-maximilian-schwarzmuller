@@ -1,1 +1,1 @@
-let users: (string | number)[] = [];
+let users: Array<string | number> = [];
