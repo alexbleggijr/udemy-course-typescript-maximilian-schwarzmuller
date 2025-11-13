@@ -1,3 +1,3 @@
-// let number = 5; // let number: number
-
-// let number: number; // let number: number
+function add(a: number, b = 5) {
+  return a + b;
+}
