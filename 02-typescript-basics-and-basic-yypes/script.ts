@@ -1,1 +1,1 @@
-let age: string | any = 40;
+let hobbies: string[] = [];
