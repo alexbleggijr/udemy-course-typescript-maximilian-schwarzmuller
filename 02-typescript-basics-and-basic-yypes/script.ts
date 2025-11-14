@@ -1,1 +1,1 @@
-let age: any = 40;
+let age: string | any = 40;
