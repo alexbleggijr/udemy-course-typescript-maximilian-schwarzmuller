@@ -1,1 +1,1 @@
-let hobbies: string[] = [];
+let users: (string | number)[] = [];
