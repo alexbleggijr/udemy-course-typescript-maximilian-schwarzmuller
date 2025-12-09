@@ -1,4 +1,4 @@
-# TypeScript Course by Maximilian Schwarzmüller on Udemy
+# TypeScript · Course by Maximilian Schwarzmüller at Udemy
 
 - [Course URL](https://www.udemy.com/course/understanding-typescript/)
 - [Certificate URL]()
