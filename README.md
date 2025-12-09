@@ -1,5 +1,5 @@
 # TypeScript Course by Maximilian Schwarzmüller on Udemy
 
-- [Course link](https://www.udemy.com/course/understanding-typescript/)
-- [Certificate link]()
-- [Notion link](https://www.notion.so/TypeScript-Course-by-Maximilian-Schwarzm-ller-on-Udemy-2af37ed6948080fba74ee204cbad5be6)
+- [Course URL](https://www.udemy.com/course/understanding-typescript/)
+- [Certificate URL]()
+- [Notion URL](https://www.notion.so/TypeScript-Course-by-Maximilian-Schwarzm-ller-at-Udemy-2b837ed69480801e95acc337526a8b57)
